@@ -83,7 +83,7 @@ body,
 }
 
 .container *:after {
-  content: attr();
+  content: attr(none);
   position: absolute;
   top: 0;
   left: 0;
